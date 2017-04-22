@@ -64,7 +64,6 @@ h3 {
 
 .photo:hover {
   box-shadow: 1px 1px 30px black;
-  cursor: pointer;
 }
 
 .info_wrap {
@@ -104,7 +103,6 @@ h3 {
 
 .experience_details:hover {
   box-shadow: 1px 1px 40px black;
-  cursor: pointer;
 }
 
 ul {
