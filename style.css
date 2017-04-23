@@ -89,6 +89,13 @@ h3 {
   transition-duration: 2s;
 }
 
+.smile {
+  display: block;
+  position: absolute;
+  top: 360px;
+  left: 270px;
+}
+
 .info_wrap {
   margin-top: 10px;
   margin-bottom: 10px;
