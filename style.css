@@ -6,22 +6,19 @@
 
 body {
   margin: 0 auto;
-  max-width:900px;
-  width:auto;
+  width: 900px;
   font-family: 'Noto Sans', Arial, sans-serif;
+  background-image: url(images/background1.jpg);
 }
 
 a {
   text-decoration: none;
   color: darkcyan;
+  font-weight: bold;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-a:visited {
-  color: cadetblue;
 }
 
 h, p {
@@ -51,35 +48,48 @@ h3 {
 }
 
 .avatar {
-  width: 300px;
-  margin: 10% 0;
+  width: 40%;
+  margin: 0 0;
+  position: relative;
+}
+
+.paper_clip {
+  position: absolute;
+  top: -7px;
+  left: 70px;
+  transform: rotate(-10deg);
+  width: 50px;
+  height: 79px;
+  background-image: url(images/paper_clip1.png);
+  z-index: 1;
 }
 
 .photo {
+  width: 267px;
+  height: 400px;
   display: block;
-  border-radius: 250px;
-  margin: auto auto;
+  position: absolute;
+  border-radius: 20px;
   box-shadow: 5px 8px 15px -6px black;
-}
-
-.photo:hover {
-  box-shadow: 1px 1px 30px black;
+  left: 10px;
+  top: -5px;
+  transform: rotate(-6deg);
 }
 
 .info_wrap {
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 25px;
   display: flex;
 }
 
 .info {
   margin-left: 35px;
+  padding: 30px;
 }
 
 .main_wrap {
   box-shadow: 1px 1px 20px black;
-  background-image: url(images/background1.jpg);
+  background-image: url(images/pep2.png);
   background-repeat: repeat;
 }
 
@@ -93,12 +103,12 @@ h3 {
   box-shadow: 1px 1px 20px black;
   margin: 10px;
   padding: 10px;
-  background-image: url(images/back.jpg);
-  background-repeat: repeat;
+  background-image: url(images/pep.jpg);
+  background-size: cover;
 }
 
 .experience_details p, .experience_details ul, .experience_details span {
-  color: azure;
+  color: black;
 }
 
 .experience_details:hover {
